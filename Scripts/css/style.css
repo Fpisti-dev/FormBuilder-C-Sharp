@@ -1,0 +1,226 @@
+﻿/*=======================================
+    DATATABLES
+=======================================*/
+
+.widthFull {
+    width: 100%;
+}
+
+fontSize10 {
+    font-size: 10px;
+}
+
+.displayNone {
+    display:none;
+} 
+
+.search-input {
+    width: 100%;
+}  
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 3px;
+}
+
+/*=======================================
+    GENERALS 
+=======================================*/
+
+body {
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.text-center {
+    text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Ruluko', sans-serif;
+}
+
+title_1 {
+    line-height:120px;
+    text-transform:uppercase;
+     color: #00A9DF;
+     font-size:50px ;
+    font-weight:900!important;
+}
+
+/*=======================================
+    COLOR CODES
+=======================================*/
+
+.color-white {
+   background-color:#fff!important;
+}
+
+.color-light {
+   background-color:#F8F8F8!important;
+}
+.color-blue {
+    color: #00A9DF;
+}
+
+/*=======================================
+    HEADER STYLES
+=======================================*/
+
+#home {
+    padding:20px 40px 130px 40px;
+}
+.head-main {
+    font-size:120px !important;
+    font-weight:900!important;
+    color:#585858!important;
+    padding:200px 20px 20px 20px;
+}
+
+
+/*=======================================
+    FORM-BUILDER
+=======================================*/
+
+body > div {}
+
+#fb-template {
+  /* display: none; */
+}
+
+.template-textarea-wrap {
+  display: block !important;
+}
+
+.content {
+  margin: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-top: 5em;
+}
+
+.form-rendered .build-wrap {
+  display: none;
+}
+
+.render-wrap {
+  display: none;
+}
+
+.form-rendered .render-wrap {
+  display: block;
+}
+
+#edit-form {
+  display: none;
+  float: right;
+}
+
+.form-rendered #edit-form {
+  display: block;
+}
+
+/*=======================================
+    Editor
+=======================================*/
+
+.area {
+    border: solid 1px #ddd;
+    margin: 5px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    padding: 10px;
+    min-height: 40px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.box {
+    min-height: 40px;
+    border: solid 1px #ddd;
+    overflow: hidden;
+    margin: -1px;
+    border-radius: 3px;
+}
+
+.drop {
+    margin-bottom: 5px;
+    background-color: #F8F8F8;
+    width: 100%;
+    border: solid 1px #ddd;
+    overflow: hidden;
+}
+
+.designer {
+    min-height: 80px;
+    border: dashed 1px #ddd;
+}
+
+.layouts {
+    width: 100%;
+    clear: both;
+    min-height: 40px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.layout {
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+
+div#dTools a {
+    text-decoration: none;
+}
+
+div#dTools li {
+    list-style-type: none;
+}
+
+
+/*#uPages li span { 
+    position: absolute; 
+    margin-left: 80%; 
+}*/
+
+.items {
+    border: solid 1px #ddd;
+    border-radius: 3px;
+    margin: 5px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    padding: 10px;
+    min-height: 40px;
+    cursor: pointer;
+    width: 97%;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.modal-label {
+    font-weight: normal;
+    color: #1D91CA;
+    margin-top: 0.5em;
+}
+
+.modal-check-label {
+    font-weight: normal;
+    color: #1D91CA;
+}
+
+.form-control{
+      -webkit-border-radius: 4px !important;
+         -moz-border-radius: 4px !important;
+              border-radius: 4px !important;
+      -webkit-border-top: 4px !important;
+         -moz-border-top: 4px !important;
+              border-top: 4px !important;
+}
+
+.moveable {
+    min-width: 300px;
+}
+

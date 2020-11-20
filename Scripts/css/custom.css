@@ -1,0 +1,81 @@
+﻿.CodeMirror {
+        border: 1px solid #C0C0C0;
+        height: auto;
+        font-family: 'Source Code Pro', monospace;
+}
+
+.CodeMirror-empty {
+        outline: 1px solid #c22;
+}
+
+.CodeMirror-empty.CodeMirror-focused {
+        outline: none;
+}
+
+.CodeMirror pre.CodeMirror-placeholder {
+        color: #999;
+}
+
+.modal.large {
+    width: 80%; /* respsonsive width */
+    margin-left:-40%; /* width/2) */ 
+}
+
+/*body .modal {
+    width: 60%;
+    margin-left: 20%;
+}*/
+
+.text_filter{
+    width:45%;
+    min-width:200px;
+}
+
+.dataTables_filter input {
+    width:45%;
+    min-width:200px;
+}
+
+
+
+.chart {
+  width: 100%; 
+  min-height: 450px;
+}
+
+body .modal-dialog {
+    /* new custom width */
+    width: 80%;   
+}
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyph-icon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e113";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.the-legend {
+    border-style: none;
+    border-width: 0;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.the-fieldset {
+    border: 2px groove threedface #444;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+
+
+
+
