@@ -6,7 +6,7 @@ The aim of the project was not to create a flawless application, only to present
 
 Demo link:
 
-https://frankofamily.info/portfolio/FormBuilder_PHP/
+https://frankofamily.eu/portfolio/FormBuilder_PHP/
 
  
 
